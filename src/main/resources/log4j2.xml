@@ -1,0 +1,29 @@
+<Configuration status="warn" monitorInterval="5">
+	
+	<Appenders>
+		<Console name = "StdOut" target = "SYSTEM_OUT">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</Console>
+		<File name = "FileAppender" filename="/Users/adamhardy/eclipse-workspace/StateDesignPatternExample/src/main/java/com/fdmgroup/StateDesignPattenExample/out.log">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</File>
+	</Appenders>
+	
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref = "StdOut"/>
+			<AppenderRef ref = "FileAppender"/>			
+		</Root>
+		
+		<Logger name="com.fdmgroup.StateDesignPatternExample.Sad" level="trace">
+			<AppenderRef ref = "FileAppender"/>
+		</Logger>
+		<Logger name="com.fdmgroup.StateDesignPatternExample.Happy" level="trace">
+			<AppenderRef ref = "FileAppender"/>
+		</Logger>
+		<Logger name="com.fdmgroup.StateDesignPatternExample.Person" level="trace">
+			<AppenderRef ref = "FileAppender"/>
+		</Logger>
+	</Loggers>
+	
+</Configuration>

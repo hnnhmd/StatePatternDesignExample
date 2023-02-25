@@ -1,0 +1,25 @@
+2023-02-23 17:22:56 TRACE Person:13 - Creating person object who is by default, Happy.
+2023-02-23 17:22:56 TRACE Person:25 - Calling the method feeling of the current state
+2023-02-23 17:22:56 TRACE Happy:12 - Within Happy Class, calling method to output that child is happy
+2023-02-23 17:22:56 TRACE Person:19 - Setting state of person object to class: class com.fdmgroup.StateDesignPattenExample.Sad
+2023-02-23 17:22:56 TRACE Person:25 - Calling the method feeling of the current state
+2023-02-23 17:22:56 TRACE Sad:12 - Within Sad Class, calling method to output that child is sad
+
+2023-02-23 19:07:54 TRACE Person:26 - Creating person object who is by default, Happy.
+2023-02-23 19:07:54 TRACE Person:43 - Calling the method feeling of the current state
+2023-02-23 19:07:54 TRACE Happy:26 - Within Happy Class, calling method to output that child is happy
+2023-02-23 19:07:54 TRACE Person:35 - Setting state of person object to class: class com.fdmgroup.StateDesignPattenExample.Sad
+2023-02-23 19:07:54 TRACE Person:43 - Calling the method feeling of the current state
+2023-02-23 19:07:54 TRACE Sad:25 - Within Sad Class, calling method to output that child is sad
+2023-02-23 19:08:29 TRACE Person:26 - Creating person object who is by default, Happy.
+2023-02-23 19:08:29 TRACE Person:43 - Calling the method feeling of the current state
+2023-02-23 19:08:29 TRACE Happy:26 - Within Happy Class, calling method to output that child is happy
+2023-02-23 19:08:29 TRACE Person:35 - Setting state of person object to class: class com.fdmgroup.StateDesignPattenExample.Sad
+2023-02-23 19:08:29 TRACE Person:43 - Calling the method feeling of the current state
+2023-02-23 19:08:29 TRACE Sad:25 - Within Sad Class, calling method to output that child is sad
+2023-02-23 23:13:45 TRACE Person:26 - Creating person object who is by default, Happy.
+2023-02-23 23:13:45 TRACE Person:43 - Calling the method feeling of the current state
+2023-02-23 23:13:45 TRACE Happy:26 - Within Happy Class, calling method to output that child is happy
+2023-02-23 23:13:45 TRACE Person:35 - Setting state of person object to class: class com.fdmgroup.StateDesignPattenExample.Sad
+2023-02-23 23:13:45 TRACE Person:43 - Calling the method feeling of the current state
+2023-02-23 23:13:45 TRACE Sad:25 - Within Sad Class, calling method to output that child is sad
